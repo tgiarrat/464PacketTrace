@@ -1,5 +1,6 @@
 #include <pcap.h>
-
+#include <stdint.h>
+#include "ethernet.h" 
 
 
 int main(int argc, char **argv) {
@@ -8,7 +9,7 @@ int main(int argc, char **argv) {
     pcap_t *pcap_file; 
     char errBuf[PCAP_ERRBUF_SIZE]; //error buffer for opening  the pcap file
     struct pcap_pkthdr *header;
-    const u_char *packet_data;
+    uint8_t *packet_data;
 
     if (argc < 2){ //args error checking
         printf("Error! Incorrect number of arguments\nUsage: trace <filename.pcap>\n");
@@ -16,18 +17,18 @@ int main(int argc, char **argv) {
     }
 
     pcap_file = pcap_open_offline(argv[1], errBuf); //open pcap file
-    if(!pcap) { //file open error checking
+    if(!pcap_file) { //file open error checking
         printf("%s\n", errBuf);
         return 0;
     }
 
     pkt_count = 1;
-    while(pcap_next_ex(pcap_file, &header, &packet_data)) {
+    while(pcap_next_ex(pcap_file, &header, (const uint8_t **)&packet_data) == 1 ) {
 
-        //get packet length
-        printf("Packet number: %d Packet Len: %d", pkt_count++, header->len);
+        printf("Packet number: %d Packet Len: %d\n\n", pkt_count++, header->len);
 
-        //first process ethernet
+        //process ethernet
+        print_ether_info(packet_data);
 
     }
 
