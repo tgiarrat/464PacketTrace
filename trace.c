@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include "trace.h"
 #include <net/ethernet.h>
-//#include <netinet/in.h>
+#include <netinet/ethernet.h>
 #include <arpa/inet.h>
 
 int main(int argc, char **argv) {
