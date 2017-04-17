@@ -46,7 +46,6 @@ int main(int argc, char **argv) {
                 break;
             case IP_CODE:
                 protocol_type = print_ip_info(packet_data + ETHER_HEADER_LEN);
-                //print_protocol_info(protocol_type, packet_data + ETHER_HEADER_LEN + IP_HEADER_LEN);
                 break;   
             default:
                 printf("Unknown Protocol type: %d\n", protocol_type);

@@ -98,7 +98,6 @@ struct udp_struct {
 
 int print_ether_info(uint8_t *);
 int print_ip_info(uint8_t *);
-int print_protocol_info(int, uint8_t *,struct ip_struct *);
 int print_arp_info(uint8_t *);
 int print_icmp_info(uint8_t *, int);
 int print_udp_info(uint8_t *);
