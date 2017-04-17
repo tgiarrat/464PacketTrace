@@ -1,0 +1,2501 @@
+
+Packet number: 1  Packet Len: 680
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x061d)
+		Sender IP: 192.168.1.16
+		Dest IP: 23.23.117.228
+
+	TCP Header
+		Source Port:  49726
+		Dest Port:  443
+		Sequence Number: 3082216211
+		ACK Number: 3392114859
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0xd79e)
+
+Packet number: 2  Packet Len: 596
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 45
+		Protocol: TCP
+		Checksum: Correct (0x579d)
+		Sender IP: 23.23.117.228
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49726
+		Sequence Number: 3392114859
+		ACK Number: 3082216825
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 136
+		Checksum: Correct (0x02b0)
+
+Packet number: 3  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xad87)
+		Sender IP: 192.168.1.16
+		Dest IP: 23.23.117.228
+
+	TCP Header
+		Source Port:  49726
+		Dest Port:  443
+		Sequence Number: 3082216825
+		ACK Number: 3392115389
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4079
+		Checksum: Correct (0x921f)
+
+Packet number: 4  Packet Len: 217
+
+	Ethernet Header
+		Dest MAC: 1:0:5e:7f:ff:fa
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 1
+		Protocol: UDP
+		Checksum: Correct (0x19e1)
+		Sender IP: 192.168.1.16
+		Dest IP: 239.255.255.250
+
+	UDP Header
+		Source Port:  49393
+		Dest Port:  1900
+
+Packet number: 5  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79df)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 6  Packet Len: 42
+
+	Ethernet Header
+		Dest MAC: ff:ff:ff:ff:ff:ff
+		Source MAC: dc:53:60:63:6a:7d
+		Type: ARP
+
+	ARP header
+		Opcode: Request
+		Sender MAC: dc:53:60:63:6a:7d
+		Sender IP: 192.168.1.216
+		Target MAC: 0:0:0:0:0:0
+		Target IP: 192.168.1.181
+
+
+Packet number: 7  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d5)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 8  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79da)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 9  Packet Len: 52
+
+	Ethernet Header
+		Dest MAC: 1:80:c2:0:0:0
+		Source MAC: f8:32:e4:af:15:68
+		Type: Unknown Protocol type: 9728
+
+Packet number: 10  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x922c)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.22
+
+	TCP Header
+		Source Port:  49988
+		Dest Port:  443
+		Sequence Number: 3673568364
+		ACK Number: 4120048344
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: Yes
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0x31a3)
+
+Packet number: 11  Packet Len: 318
+
+	Ethernet Header
+		Dest MAC: 1:0:5e:7f:ff:fa
+		Source MAC: dc:53:60:63:6a:7d
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 1
+		Protocol: UDP
+		Checksum: Correct (0xbef4)
+		Sender IP: 192.168.1.216
+		Dest IP: 239.255.255.250
+
+	UDP Header
+		Source Port:  56402
+		Dest Port:  1900
+
+Packet number: 12  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 49
+		Protocol: TCP
+		Checksum: Correct (0xf1ae)
+		Sender IP: 17.248.136.22
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49988
+		Sequence Number: 4120048344
+		ACK Number: 3673568365
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: Yes
+		ACK Flag: Yes
+		Window Size: 1566
+		Checksum: Correct (0x34f4)
+
+Packet number: 13  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x291a)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.22
+
+	TCP Header
+		Source Port:  49988
+		Dest Port:  443
+		Sequence Number: 3673568365
+		ACK Number: 4120048345
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0x2aa7)
+
+Packet number: 14  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79dc)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 15  Packet Len: 217
+
+	Ethernet Header
+		Dest MAC: 1:0:5e:7f:ff:fa
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 1
+		Protocol: UDP
+		Checksum: Correct (0xd028)
+		Sender IP: 192.168.1.16
+		Dest IP: 239.255.255.250
+
+	UDP Header
+		Source Port:  49393
+		Dest Port:  1900
+
+Packet number: 16  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d2)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 17  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d7)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 18  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d9)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 19  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79cf)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 20  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d4)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 21  Packet Len: 42
+
+	Ethernet Header
+		Dest MAC: ff:ff:ff:ff:ff:ff
+		Source MAC: e0:b9:a5:9a:c3:fa
+		Type: ARP
+
+	ARP header
+		Opcode: Request
+		Sender MAC: e0:b9:a5:9a:c3:fa
+		Sender IP: 192.168.1.80
+		Target MAC: 0:0:0:0:0:0
+		Target IP: 192.168.1.1
+
+
+Packet number: 22  Packet Len: 42
+
+	Ethernet Header
+		Dest MAC: ff:ff:ff:ff:ff:ff
+		Source MAC: dc:53:60:63:6a:7d
+		Type: ARP
+
+	ARP header
+		Opcode: Request
+		Sender MAC: dc:53:60:63:6a:7d
+		Sender IP: 192.168.1.216
+		Target MAC: 0:0:0:0:0:0
+		Target IP: 192.168.1.1
+
+
+Packet number: 23  Packet Len: 52
+
+	Ethernet Header
+		Dest MAC: 1:80:c2:0:0:0
+		Source MAC: f8:32:e4:af:15:68
+		Type: Unknown Protocol type: 9728
+
+Packet number: 24  Packet Len: 128
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 87
+		Protocol: TCP
+		Checksum: Correct (0xa150)
+		Sender IP: 31.13.77.6
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  62642
+		Sequence Number: 1301183273
+		ACK Number: 3268044730
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 2043
+		Checksum: Correct (0xae30)
+
+Packet number: 25  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xb606)
+		Sender IP: 192.168.1.16
+		Dest IP: 31.13.77.6
+
+	TCP Header
+		Source Port:  62642
+		Dest Port:  443
+		Sequence Number: 3268044730
+		ACK Number: 1301183335
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4094
+		Checksum: Correct (0x9c62)
+
+Packet number: 26  Packet Len: 114
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 87
+		Protocol: TCP
+		Checksum: Correct (0xa15d)
+		Sender IP: 31.13.77.6
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  62642
+		Sequence Number: 1301183335
+		ACK Number: 3268044730
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 2043
+		Checksum: Correct (0xe166)
+
+Packet number: 27  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xbf85)
+		Sender IP: 192.168.1.16
+		Dest IP: 31.13.77.6
+
+	TCP Header
+		Source Port:  62642
+		Dest Port:  443
+		Sequence Number: 3268044730
+		ACK Number: 1301183383
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4094
+		Checksum: Correct (0x9c32)
+
+Packet number: 28  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d6)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 29  Packet Len: 114
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 87
+		Protocol: TCP
+		Checksum: Correct (0xa15c)
+		Sender IP: 31.13.77.6
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  62642
+		Sequence Number: 1301183335
+		ACK Number: 3268044730
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 2043
+		Checksum: Correct (0xe0a6)
+
+Packet number: 30  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79cc)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 31  Packet Len: 78
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x81e0)
+		Sender IP: 192.168.1.16
+		Dest IP: 31.13.77.6
+
+	TCP Header
+		Source Port:  62642
+		Dest Port:  443
+		Sequence Number: 3268044730
+		ACK Number: 1301183383
+		Data Offset (bytes): 44
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0xd33d)
+
+Packet number: 32  Packet Len: 217
+
+	Ethernet Header
+		Dest MAC: 1:0:5e:7f:ff:fa
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 1
+		Protocol: UDP
+		Checksum: Correct (0x6fee)
+		Sender IP: 192.168.1.16
+		Dest IP: 239.255.255.250
+
+	UDP Header
+		Source Port:  49393
+		Dest Port:  1900
+
+Packet number: 33  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d1)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 34  Packet Len: 299
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xef5d)
+		Sender IP: 192.168.1.16
+		Dest IP: 31.13.77.6
+
+	TCP Header
+		Source Port:  62642
+		Dest Port:  443
+		Sequence Number: 3268044730
+		ACK Number: 1301183383
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0x3593)
+
+Packet number: 35  Packet Len: 108
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 87
+		Protocol: TCP
+		Checksum: Correct (0xa161)
+		Sender IP: 31.13.77.6
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  62642
+		Sequence Number: 1301183383
+		ACK Number: 3268044963
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 2043
+		Checksum: Correct (0x5439)
+
+Packet number: 36  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x52e7)
+		Sender IP: 192.168.1.16
+		Dest IP: 31.13.77.6
+
+	TCP Header
+		Source Port:  62642
+		Dest Port:  443
+		Sequence Number: 3268044963
+		ACK Number: 1301183425
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4094
+		Checksum: Correct (0x99bf)
+
+Packet number: 37  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d3)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 38  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79c9)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 39  Packet Len: 142
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 87
+		Protocol: TCP
+		Checksum: Correct (0xa13e)
+		Sender IP: 31.13.77.6
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  62642
+		Sequence Number: 1301183425
+		ACK Number: 3268044963
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 2043
+		Checksum: Correct (0xabf5)
+
+Packet number: 40  Packet Len: 130
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 87
+		Protocol: TCP
+		Checksum: Correct (0xa149)
+		Sender IP: 31.13.77.6
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  62642
+		Sequence Number: 1301183501
+		ACK Number: 3268044963
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 2043
+		Checksum: Correct (0x5e3e)
+
+Packet number: 41  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xd765)
+		Sender IP: 192.168.1.16
+		Dest IP: 31.13.77.6
+
+	TCP Header
+		Source Port:  62642
+		Dest Port:  443
+		Sequence Number: 3268044963
+		ACK Number: 1301183501
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4093
+		Checksum: Correct (0x980a)
+
+Packet number: 42  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x73a1)
+		Sender IP: 192.168.1.16
+		Dest IP: 31.13.77.6
+
+	TCP Header
+		Source Port:  62642
+		Dest Port:  443
+		Sequence Number: 3268044963
+		ACK Number: 1301183565
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4091
+		Checksum: Correct (0x97cc)
+
+Packet number: 43  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79ce)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 44  Packet Len: 77
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xd47d)
+		Sender IP: 192.168.1.16
+		Dest IP: 104.154.127.143
+
+	TCP Header
+		Source Port:  52695
+		Dest Port:  4070
+		Sequence Number: 2610834718
+		ACK Number: 814677118
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0x97bd)
+
+Packet number: 45  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79d0)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 46  Packet Len: 217
+
+	Ethernet Header
+		Dest MAC: 1:0:5e:7f:ff:fa
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 1
+		Protocol: UDP
+		Checksum: Correct (0xce88)
+		Sender IP: 192.168.1.16
+		Dest IP: 239.255.255.250
+
+	UDP Header
+		Source Port:  49393
+		Dest Port:  1900
+
+Packet number: 47  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79c6)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 48  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79cb)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 49  Packet Len: 77
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 54
+		Protocol: TCP
+		Checksum: Correct (0x9cf1)
+		Sender IP: 104.154.127.143
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  4070
+		Dest Port:  52695
+		Sequence Number: 814677118
+		ACK Number: 2610834729
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 42
+		Checksum: Correct (0x3ce7)
+
+Packet number: 50  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x91bf)
+		Sender IP: 192.168.1.16
+		Dest IP: 104.154.127.143
+
+	TCP Header
+		Source Port:  52695
+		Dest Port:  4070
+		Sequence Number: 2610834729
+		ACK Number: 814677129
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4095
+		Checksum: Correct (0x0daa)
+
+Packet number: 51  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79cd)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 52  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79c3)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 53  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79c8)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 54  Packet Len: 52
+
+	Ethernet Header
+		Dest MAC: 1:80:c2:0:0:0
+		Source MAC: f8:32:e4:af:15:68
+		Type: Unknown Protocol type: 9728
+
+Packet number: 55  Packet Len: 60
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: ARP
+
+	ARP header
+		Opcode: Request
+		Sender MAC: 0:17:88:46:92:60
+		Sender IP: 192.168.1.202
+		Target MAC: 0:0:0:0:0:0
+		Target IP: 192.168.1.16
+
+
+Packet number: 56  Packet Len: 42
+
+	Ethernet Header
+		Dest MAC: 0:17:88:46:92:60
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: ARP
+
+	ARP header
+		Opcode: Reply
+		Sender MAC: 3c:15:c2:c9:57:dc
+		Sender IP: 192.168.1.16
+		Target MAC: 0:17:88:46:92:60
+		Target IP: 192.168.1.202
+
+
+Packet number: 57  Packet Len: 339
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79ca)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 58  Packet Len: 348
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79c0)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 59  Packet Len: 342
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: 0:17:88:46:92:60
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x79c5)
+		Sender IP: 192.168.1.202
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  1900
+		Dest Port:  49393
+
+Packet number: 60  Packet Len: 70
+
+	Ethernet Header
+		Dest MAC: 0:17:88:46:92:60
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: ICMP
+		Checksum: Correct (0x85c8)
+		Sender IP: 192.168.1.16
+		Dest IP: 192.168.1.202
+
+	ICMP Header
+		Type: Unknown ICMP type
+
+Packet number: 61  Packet Len: 70
+
+	Ethernet Header
+		Dest MAC: 0:17:88:46:92:60
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: ICMP
+		Checksum: Correct (0x53fa)
+		Sender IP: 192.168.1.16
+		Dest IP: 192.168.1.202
+
+	ICMP Header
+		Type: Unknown ICMP type
+
+Packet number: 62  Packet Len: 70
+
+	Ethernet Header
+		Dest MAC: 0:17:88:46:92:60
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: ICMP
+		Checksum: Correct (0x8d30)
+		Sender IP: 192.168.1.16
+		Dest IP: 192.168.1.202
+
+	ICMP Header
+		Type: Unknown ICMP type
+
+Packet number: 63  Packet Len: 318
+
+	Ethernet Header
+		Dest MAC: 1:0:5e:7f:ff:fa
+		Source MAC: dc:53:60:63:6a:7d
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 1
+		Protocol: UDP
+		Checksum: Correct (0xbef3)
+		Sender IP: 192.168.1.216
+		Dest IP: 239.255.255.250
+
+	UDP Header
+		Source Port:  56402
+		Dest Port:  1900
+
+Packet number: 64  Packet Len: 52
+
+	Ethernet Header
+		Dest MAC: 1:80:c2:0:0:0
+		Source MAC: f8:32:e4:af:15:68
+		Type: Unknown Protocol type: 9728
+
+Packet number: 65  Packet Len: 42
+
+	Ethernet Header
+		Dest MAC: ff:ff:ff:ff:ff:ff
+		Source MAC: e0:b9:a5:9a:c3:fa
+		Type: ARP
+
+	ARP header
+		Opcode: Request
+		Sender MAC: e0:b9:a5:9a:c3:fa
+		Sender IP: 192.168.1.80
+		Target MAC: 0:0:0:0:0:0
+		Target IP: 192.168.1.181
+
+
+Packet number: 66  Packet Len: 42
+
+	Ethernet Header
+		Dest MAC: ff:ff:ff:ff:ff:ff
+		Source MAC: e0:b9:a5:9a:c3:fa
+		Type: ARP
+
+	ARP header
+		Opcode: Request
+		Sender MAC: e0:b9:a5:9a:c3:fa
+		Sender IP: 192.168.1.80
+		Target MAC: 0:0:0:0:0:0
+		Target IP: 192.168.1.181
+
+
+Packet number: 67  Packet Len: 86
+
+	Ethernet Header
+		Dest MAC: ff:ff:ff:ff:ff:ff
+		Source MAC: 28:b2:bd:91:60:72
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 128
+		Protocol: UDP
+		Checksum: Correct (0xade8)
+		Sender IP: 192.168.1.148
+		Dest IP: 192.168.1.255
+
+	UDP Header
+		Source Port:  57621
+		Dest Port:  57621
+
+Packet number: 68  Packet Len: 91
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 255
+		Protocol: UDP
+		Checksum: Correct (0x1568)
+		Sender IP: 192.168.1.16
+		Dest IP: 192.168.1.1
+
+	UDP Header
+		Source Port:  65389
+		Dest Port:  DNS
+
+Packet number: 69  Packet Len: 107
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0xb72e)
+		Sender IP: 192.168.1.1
+		Dest IP: 192.168.1.16
+
+	UDP Header
+		Source Port:  DNS
+		Dest Port:  65389
+
+Packet number: 70  Packet Len: 78
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x089a)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381078
+		ACK Number: 0
+		Data Offset (bytes): 44
+		SYN Flag: Yes
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: No
+		Window Size: 65535
+		Checksum: Correct (0x6c62)
+
+Packet number: 71  Packet Len: 74
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 49
+		Protocol: TCP
+		Checksum: Correct (0xeddf)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773327629
+		ACK Number: 95381079
+		Data Offset (bytes): 40
+		SYN Flag: Yes
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 28960
+		Checksum: Correct (0x5a93)
+
+Packet number: 72  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x993d)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381079
+		ACK Number: 1773327630
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4117
+		Checksum: Correct (0xea0c)
+
+Packet number: 73  Packet Len: 301
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xfddf)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381079
+		ACK Number: 1773327630
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4117
+		Checksum: Correct (0x78ec)
+
+Packet number: 74  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x8a08)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773327630
+		ACK Number: 95381314
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0xf537)
+
+Packet number: 75  Packet Len: 1514
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x845f)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773327630
+		ACK Number: 95381314
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0x2636)
+
+Packet number: 76  Packet Len: 1514
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x845e)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773329078
+		ACK Number: 95381314
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0x816a)
+
+Packet number: 77  Packet Len: 1514
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x845d)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773330526
+		ACK Number: 95381314
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0xa1ce)
+
+Packet number: 78  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x1e76)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381314
+		ACK Number: 1773330526
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4050
+		Checksum: Correct (0xdd63)
+
+Packet number: 79  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xa45b)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381314
+		ACK Number: 1773331974
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0xd78d)
+
+Packet number: 80  Packet Len: 1514
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x845c)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773331974
+		ACK Number: 95381314
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0x5dcc)
+
+Packet number: 81  Packet Len: 317
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x8908)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773333422
+		ACK Number: 95381314
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0xeabb)
+
+Packet number: 82  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xc5a3)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381314
+		ACK Number: 1773333673
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4042
+		Checksum: Correct (0xd11f)
+
+Packet number: 83  Packet Len: 141
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xd18f)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381314
+		ACK Number: 1773333673
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0x9df4)
+
+Packet number: 84  Packet Len: 72
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x6a63)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381389
+		ACK Number: 1773333673
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0xb873)
+
+Packet number: 85  Packet Len: 111
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x2b9e)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381395
+		ACK Number: 1773333673
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0xfc4f)
+
+Packet number: 86  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x8a02)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773333673
+		ACK Number: 95381440
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0xdc29)
+
+Packet number: 87  Packet Len: 117
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x89ce)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773333673
+		ACK Number: 95381440
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 939
+		Checksum: Correct (0x44ca)
+
+Packet number: 88  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x5792)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381440
+		ACK Number: 1773333724
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4094
+		Checksum: Correct (0xcf41)
+
+Packet number: 89  Packet Len: 1469
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xfe18)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95381440
+		ACK Number: 1773333724
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0x1e76)
+
+Packet number: 90  Packet Len: 424
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x6ed8)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95382843
+		ACK Number: 1773333724
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0x4d7d)
+
+Packet number: 91  Packet Len: 102
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0xa877)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95383201
+		ACK Number: 1773333724
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4096
+		Checksum: Correct (0xf703)
+
+Packet number: 92  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x8a00)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773333724
+		ACK Number: 95383201
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 1114
+		Checksum: Correct (0xd39e)
+
+Packet number: 93  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x89ff)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773333724
+		ACK Number: 95383237
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 1114
+		Checksum: Correct (0xd352)
+
+Packet number: 94  Packet Len: 808
+
+	Ethernet Header
+		Dest MAC: 3c:15:c2:c9:57:dc
+		Source MAC: f8:32:e4:af:15:68
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 50
+		Protocol: TCP
+		Checksum: Correct (0x8718)
+		Sender IP: 17.248.136.44
+		Dest IP: 192.168.1.16
+
+	TCP Header
+		Source Port:  443
+		Dest Port:  49989
+		Sequence Number: 1773333724
+		ACK Number: 95383237
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 1114
+		Checksum: Correct (0x932d)
+
+Packet number: 95  Packet Len: 66
+
+	Ethernet Header
+		Dest MAC: f8:32:e4:af:15:68
+		Source MAC: 3c:15:c2:c9:57:dc
+		Type: IP
+
+	IP Header
+		IP Version: 4
+		Header Len (bytes): 20
+		TOS subfields:
+		   Diffserv bits: 0
+		   ECN bits: 0
+		TTL: 64
+		Protocol: TCP
+		Checksum: Correct (0x6263)
+		Sender IP: 192.168.1.16
+		Dest IP: 17.248.136.44
+
+	TCP Header
+		Source Port:  49989
+		Dest Port:  443
+		Sequence Number: 95383237
+		ACK Number: 1773334466
+		Data Offset (bytes): 32
+		SYN Flag: No
+		RST Flag: No
+		FIN Flag: No
+		ACK Flag: Yes
+		Window Size: 4072
+		Checksum: Correct (0xc424)
+
+Packet number: 96  Packet Len: 52
+
+	Ethernet Header
+		Dest MAC: 1:80:c2:0:0:0
+		Source MAC: f8:32:e4:af:15:68
+		Type: Unknown Protocol type: 9728
