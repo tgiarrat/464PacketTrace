@@ -53,7 +53,7 @@ int main(int argc, char **argv) {
         }
 
     }
-    //remember to pcap close
+    pcap_close(pcap_file);
 } 
 
 int print_ether_info(uint8_t *packet_data){    
@@ -216,6 +216,7 @@ int tcp_checksum(struct tcp_struct *tcp_header, struct tcp_pseudo_struct pseudo_
         printf("\t\tChecksum: Correct (0x%04hx)\n", ntohs(tcp_header->checksum_value));
     else 
         printf("\t\tChecksum: Incorrect (0x%04hx)\n", ntohs(tcp_header->checksum_value));
+    free(tcp_buffer);
     return 0;
 }
 
