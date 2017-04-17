@@ -179,13 +179,10 @@ int print_tcp_info(uint8_t *packet_data, struct ip_struct *ip_header) {
     
 
     printf("\n\tTCP Header\n");
-
     printf("\t\tSource Port:  ");
     print_port(ntohs(header->src_port));
-
     printf("\t\tDest Port:  ");
     print_port(ntohs(header->dest_port));
-
     printf("\t\tSequence Number: %u\n", ntohl(header->seq_number) );
     printf("\t\tACK Number: %u\n", ntohl(header->ack_num));
     printf("\t\tData Offset (bytes): %d\n", ((header->offset_and_reserved >> 4) & 0xF) * 4);
@@ -207,23 +204,18 @@ int print_tcp_info(uint8_t *packet_data, struct ip_struct *ip_header) {
     return 0;
 }
 
-
-
-
 int tcp_checksum(struct tcp_struct *tcp_header, struct tcp_pseudo_struct pseudo_header) {
-    char *tcp_buffer = calloc(TCP_CHECKSUM_SIZE, sizeof(int));
+    int buffer_len = (ntohs(pseudo_header.segment_length) + PSEUDO_HEADER_LEN);
+    char *tcp_buffer = calloc(buffer_len, sizeof(char));
 
     //copy pseudo + tcp header + data into buffer
     memcpy(tcp_buffer, &pseudo_header, PSEUDO_HEADER_LEN);
     memcpy(tcp_buffer + PSEUDO_HEADER_LEN, tcp_header, ntohs(pseudo_header.segment_length));
 
-    if (in_cksum((unsigned short *)tcp_buffer, ntohs(pseudo_header.segment_length) + PSEUDO_HEADER_LEN) == 0) {
+    if (in_cksum((unsigned short *)tcp_buffer, buffer_len) == 0) 
         printf("\t\tChecksum: Correct (0x%04hx)\n", ntohs(tcp_header->checksum_value));
-    }
-    else {
+    else 
         printf("\t\tChecksum: Incorrect (0x%04hx)\n", ntohs(tcp_header->checksum_value));
-    }
-
     return 0;
 }
 

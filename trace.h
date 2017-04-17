@@ -24,7 +24,6 @@
 #define ETHER_HEADER_LEN 14
 #define IP_HEADER_LEN 20 //not counting options, i beleive we  dont have them'
 #define PSEUDO_HEADER_LEN 14
-#define TCP_CHECKSUM_SIZE 16384 //MAYBE I DONT NEED THIS, CALLOC USING THE TOTAL LENGTH SOMEHOW? LOOK INTO IT
 
 #define  ADDR_LEN 6 //6 octets, char is one octet
 
