@@ -54,6 +54,7 @@ int main(int argc, char **argv) {
 
     }
     pcap_close(pcap_file);
+    return 0;
 } 
 
 int print_ether_info(uint8_t *packet_data){    
